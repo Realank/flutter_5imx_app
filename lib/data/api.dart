@@ -1,8 +1,8 @@
+import 'dart:io';
+import 'dart:convert';
 import 'package:dio/dio.dart';
 import 'topic_model.dart';
 import 'article_model.dart';
-import 'dart:io';
-import 'dart:convert';
 
 Future<List<TopicModel>> getHomeList() async {
   FormData formData = new FormData.from({

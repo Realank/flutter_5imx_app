@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../data/api.dart';
 import 'package:flutter_section_table_view/flutter_section_table_view.dart';
-import '../data/article_model.dart';
 import 'package:cached_network_image/cached_network_image.dart';
+import '../data/api.dart';
+import '../data/article_model.dart';
 import '../data/topic_model.dart';
 import '../view/avatar_view.dart';
 
@@ -17,7 +17,6 @@ class _ArticlePageState extends State<ArticlePage> {
   Article article;
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     refreshTopic();
   }
